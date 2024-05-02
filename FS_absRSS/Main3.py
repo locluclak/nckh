@@ -11,7 +11,7 @@ mp.dps = 500
 def run():
     #create data
     true_beta = np.array([0,0,0])
-    n_sample = 100
+    n_sample = 50
     n_fea = len(true_beta)
     X, Y = generate(n_sample, n_fea, true_beta)
 
